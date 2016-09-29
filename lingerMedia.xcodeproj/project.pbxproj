@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65A7CDEB1F210B6295FF08DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D884E257DD55500F7E052E5 /* libPods.a */; };
+		E24687DA1D9D0DEF007B56EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687D91D9D0DEF007B56EB /* main.m */; };
+		E24687DD1D9D0DEF007B56EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687DC1D9D0DEF007B56EB /* AppDelegate.m */; };
+		E24687E01D9D0DEF007B56EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687DF1D9D0DEF007B56EB /* ViewController.m */; };
+		E24687E31D9D0DEF007B56EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24687E11D9D0DEF007B56EB /* Main.storyboard */; };
+		E24687E51D9D0DEF007B56EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24687E41D9D0DEF007B56EB /* Assets.xcassets */; };
+		E24687E81D9D0DEF007B56EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24687E61D9D0DEF007B56EB /* LaunchScreen.storyboard */; };
+		E24687FD1D9D0ECC007B56EB /* dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = E24687F01D9D0ECC007B56EB /* dog.gif */; };
+		E24687FE1D9D0ECC007B56EB /* failed.gif in Resources */ = {isa = PBXBuildFile; fileRef = E24687F11D9D0ECC007B56EB /* failed.gif */; };
+		E24687FF1D9D0ECC007B56EB /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F21D9D0ECC007B56EB /* Play@2x.png */; };
+		E24688001D9D0ECC007B56EB /* player_fullScreen_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F31D9D0ECC007B56EB /* player_fullScreen_iphone.png */; };
+		E24688011D9D0ECC007B56EB /* player_fullScreen_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F41D9D0ECC007B56EB /* player_fullScreen_iphone@2x.png */; };
+		E24688021D9D0ECC007B56EB /* player_fullScreen_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F51D9D0ECC007B56EB /* player_fullScreen_iphone@3x.png */; };
+		E24688031D9D0ECC007B56EB /* player_window_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F61D9D0ECC007B56EB /* player_window_iphone.png */; };
+		E24688041D9D0ECC007B56EB /* player_window_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F71D9D0ECC007B56EB /* player_window_iphone@2x.png */; };
+		E24688051D9D0ECC007B56EB /* player_window_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F81D9D0ECC007B56EB /* player_window_iphone@3x.png */; };
+		E24688061D9D0ECC007B56EB /* Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F91D9D0ECC007B56EB /* Stop@2x.png */; };
+		E24688071D9D0ECC007B56EB /* JLAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687FC1D9D0ECC007B56EB /* JLAVPlayerView.m */; };
+		E246880A1D9D0EE8007B56EB /* JLAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24688091D9D0EE8007B56EB /* JLAVPlayerViewController.m */; };
+		E246880C1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E246880B1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D884E257DD55500F7E052E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9174D88810B052A6CD9C4ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E24687D51D9D0DEF007B56EB /* lingerMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lingerMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24687D91D9D0DEF007B56EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E24687DB1D9D0DEF007B56EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E24687DC1D9D0DEF007B56EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E24687DE1D9D0DEF007B56EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E24687DF1D9D0DEF007B56EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E24687E21D9D0DEF007B56EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E24687E41D9D0DEF007B56EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24687E71D9D0DEF007B56EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E24687E91D9D0DEF007B56EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24687F01D9D0ECC007B56EB /* dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dog.gif; sourceTree = "<group>"; };
+		E24687F11D9D0ECC007B56EB /* failed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = failed.gif; sourceTree = "<group>"; };
+		E24687F21D9D0ECC007B56EB /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		E24687F31D9D0ECC007B56EB /* player_fullScreen_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_fullScreen_iphone.png; sourceTree = "<group>"; };
+		E24687F41D9D0ECC007B56EB /* player_fullScreen_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_fullScreen_iphone@2x.png"; sourceTree = "<group>"; };
+		E24687F51D9D0ECC007B56EB /* player_fullScreen_iphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_fullScreen_iphone@3x.png"; sourceTree = "<group>"; };
+		E24687F61D9D0ECC007B56EB /* player_window_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_window_iphone.png; sourceTree = "<group>"; };
+		E24687F71D9D0ECC007B56EB /* player_window_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_window_iphone@2x.png"; sourceTree = "<group>"; };
+		E24687F81D9D0ECC007B56EB /* player_window_iphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_window_iphone@3x.png"; sourceTree = "<group>"; };
+		E24687F91D9D0ECC007B56EB /* Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop@2x.png"; sourceTree = "<group>"; };
+		E24687FB1D9D0ECC007B56EB /* JLAVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAVPlayerView.h; sourceTree = "<group>"; };
+		E24687FC1D9D0ECC007B56EB /* JLAVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAVPlayerView.m; sourceTree = "<group>"; };
+		E24688081D9D0EE8007B56EB /* JLAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAVPlayerViewController.h; sourceTree = "<group>"; };
+		E24688091D9D0EE8007B56EB /* JLAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAVPlayerViewController.m; sourceTree = "<group>"; };
+		E246880B1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icmpv_thumb_light@2x.png"; sourceTree = "<group>"; };
+		E7C94CA03F412ACC32C92195 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24687D21D9D0DEF007B56EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A7CDEB1F210B6295FF08DF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E8005F7CF32ABE5C4D40D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D884E257DD55500F7E052E5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E24687CC1D9D0DEF007B56EB = {
+			isa = PBXGroup;
+			children = (
+				E24687D71D9D0DEF007B56EB /* lingerMedia */,
+				E24687D61D9D0DEF007B56EB /* Products */,
+				F711DD96F3161BE8ECC37C59 /* Pods */,
+				8E8005F7CF32ABE5C4D40D9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E24687D61D9D0DEF007B56EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24687D51D9D0DEF007B56EB /* lingerMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24687D71D9D0DEF007B56EB /* lingerMedia */ = {
+			isa = PBXGroup;
+			children = (
+				E24687EF1D9D0ECC007B56EB /* images */,
+				E24687FA1D9D0ECC007B56EB /* JLAVPlayer */,
+				E24687DB1D9D0DEF007B56EB /* AppDelegate.h */,
+				E24687DC1D9D0DEF007B56EB /* AppDelegate.m */,
+				E24687DE1D9D0DEF007B56EB /* ViewController.h */,
+				E24687DF1D9D0DEF007B56EB /* ViewController.m */,
+				E24688081D9D0EE8007B56EB /* JLAVPlayerViewController.h */,
+				E24688091D9D0EE8007B56EB /* JLAVPlayerViewController.m */,
+				E24687E11D9D0DEF007B56EB /* Main.storyboard */,
+				E24687E41D9D0DEF007B56EB /* Assets.xcassets */,
+				E24687E61D9D0DEF007B56EB /* LaunchScreen.storyboard */,
+				E24687E91D9D0DEF007B56EB /* Info.plist */,
+				E24687D81D9D0DEF007B56EB /* Supporting Files */,
+			);
+			path = lingerMedia;
+			sourceTree = "<group>";
+		};
+		E24687D81D9D0DEF007B56EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E24687D91D9D0DEF007B56EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E24687EF1D9D0ECC007B56EB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E246880B1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png */,
+				E24687F01D9D0ECC007B56EB /* dog.gif */,
+				E24687F11D9D0ECC007B56EB /* failed.gif */,
+				E24687F21D9D0ECC007B56EB /* Play@2x.png */,
+				E24687F31D9D0ECC007B56EB /* player_fullScreen_iphone.png */,
+				E24687F41D9D0ECC007B56EB /* player_fullScreen_iphone@2x.png */,
+				E24687F51D9D0ECC007B56EB /* player_fullScreen_iphone@3x.png */,
+				E24687F61D9D0ECC007B56EB /* player_window_iphone.png */,
+				E24687F71D9D0ECC007B56EB /* player_window_iphone@2x.png */,
+				E24687F81D9D0ECC007B56EB /* player_window_iphone@3x.png */,
+				E24687F91D9D0ECC007B56EB /* Stop@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E24687FA1D9D0ECC007B56EB /* JLAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E24687FB1D9D0ECC007B56EB /* JLAVPlayerView.h */,
+				E24687FC1D9D0ECC007B56EB /* JLAVPlayerView.m */,
+			);
+			path = JLAVPlayer;
+			sourceTree = "<group>";
+		};
+		F711DD96F3161BE8ECC37C59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7C94CA03F412ACC32C92195 /* Pods.debug.xcconfig */,
+				B9174D88810B052A6CD9C4ED /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24687D41D9D0DEF007B56EB /* lingerMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24687EC1D9D0DEF007B56EB /* Build configuration list for PBXNativeTarget "lingerMedia" */;
+			buildPhases = (
+				0D3CC55031A5AE2D9A7A7780 /* Check Pods Manifest.lock */,
+				E24687D11D9D0DEF007B56EB /* Sources */,
+				E24687D21D9D0DEF007B56EB /* Frameworks */,
+				E24687D31D9D0DEF007B56EB /* Resources */,
+				7003D61D960D53C678ED4821 /* Embed Pods Frameworks */,
+				54B00D6FF40B9D4FB37B7203 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lingerMedia;
+			productName = lingerMedia;
+			productReference = E24687D51D9D0DEF007B56EB /* lingerMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24687CD1D9D0DEF007B56EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = eall_linger;
+				TargetAttributes = {
+					E24687D41D9D0DEF007B56EB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L2AYBSUJUV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E24687D01D9D0DEF007B56EB /* Build configuration list for PBXProject "lingerMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E24687CC1D9D0DEF007B56EB;
+			productRefGroup = E24687D61D9D0DEF007B56EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24687D41D9D0DEF007B56EB /* lingerMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24687D31D9D0DEF007B56EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E246880C1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png in Resources */,
+				E24688001D9D0ECC007B56EB /* player_fullScreen_iphone.png in Resources */,
+				E24687E81D9D0DEF007B56EB /* LaunchScreen.storyboard in Resources */,
+				E24687FD1D9D0ECC007B56EB /* dog.gif in Resources */,
+				E24688031D9D0ECC007B56EB /* player_window_iphone.png in Resources */,
+				E24688021D9D0ECC007B56EB /* player_fullScreen_iphone@3x.png in Resources */,
+				E24687E51D9D0DEF007B56EB /* Assets.xcassets in Resources */,
+				E24688041D9D0ECC007B56EB /* player_window_iphone@2x.png in Resources */,
+				E24688051D9D0ECC007B56EB /* player_window_iphone@3x.png in Resources */,
+				E24688061D9D0ECC007B56EB /* Stop@2x.png in Resources */,
+				E24687FE1D9D0ECC007B56EB /* failed.gif in Resources */,
+				E24688011D9D0ECC007B56EB /* player_fullScreen_iphone@2x.png in Resources */,
+				E24687FF1D9D0ECC007B56EB /* Play@2x.png in Resources */,
+				E24687E31D9D0DEF007B56EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3CC55031A5AE2D9A7A7780 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54B00D6FF40B9D4FB37B7203 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7003D61D960D53C678ED4821 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24687D11D9D0DEF007B56EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24688071D9D0ECC007B56EB /* JLAVPlayerView.m in Sources */,
+				E24687E01D9D0DEF007B56EB /* ViewController.m in Sources */,
+				E24687DD1D9D0DEF007B56EB /* AppDelegate.m in Sources */,
+				E24687DA1D9D0DEF007B56EB /* main.m in Sources */,
+				E246880A1D9D0EE8007B56EB /* JLAVPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E24687E11D9D0DEF007B56EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24687E21D9D0DEF007B56EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E24687E61D9D0DEF007B56EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24687E71D9D0DEF007B56EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E24687EA1D9D0DEF007B56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E24687EB1D9D0DEF007B56EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24687ED1D9D0DEF007B56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C94CA03F412ACC32C92195 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2AYBSUJUV;
+				INFOPLIST_FILE = lingerMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eall-linger.lingerMedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E24687EE1D9D0DEF007B56EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9174D88810B052A6CD9C4ED /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2AYBSUJUV;
+				INFOPLIST_FILE = lingerMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eall-linger.lingerMedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24687D01D9D0DEF007B56EB /* Build configuration list for PBXProject "lingerMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24687EA1D9D0DEF007B56EB /* Debug */,
+				E24687EB1D9D0DEF007B56EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24687EC1D9D0DEF007B56EB /* Build configuration list for PBXNativeTarget "lingerMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24687ED1D9D0DEF007B56EB /* Debug */,
+				E24687EE1D9D0DEF007B56EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24687CD1D9D0DEF007B56EB /* Project object */;
+}
