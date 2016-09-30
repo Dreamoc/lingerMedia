@@ -10,7 +10,6 @@
 		65A7CDEB1F210B6295FF08DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D884E257DD55500F7E052E5 /* libPods.a */; };
 		E24687DA1D9D0DEF007B56EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687D91D9D0DEF007B56EB /* main.m */; };
 		E24687DD1D9D0DEF007B56EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687DC1D9D0DEF007B56EB /* AppDelegate.m */; };
-		E24687E01D9D0DEF007B56EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687DF1D9D0DEF007B56EB /* ViewController.m */; };
 		E24687E31D9D0DEF007B56EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24687E11D9D0DEF007B56EB /* Main.storyboard */; };
 		E24687E51D9D0DEF007B56EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24687E41D9D0DEF007B56EB /* Assets.xcassets */; };
 		E24687E81D9D0DEF007B56EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24687E61D9D0DEF007B56EB /* LaunchScreen.storyboard */; };
@@ -25,8 +24,14 @@
 		E24688051D9D0ECC007B56EB /* player_window_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F81D9D0ECC007B56EB /* player_window_iphone@3x.png */; };
 		E24688061D9D0ECC007B56EB /* Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24687F91D9D0ECC007B56EB /* Stop@2x.png */; };
 		E24688071D9D0ECC007B56EB /* JLAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E24687FC1D9D0ECC007B56EB /* JLAVPlayerView.m */; };
-		E246880A1D9D0EE8007B56EB /* JLAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24688091D9D0EE8007B56EB /* JLAVPlayerViewController.m */; };
 		E246880C1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E246880B1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png */; };
+		E27BE8211D9DFBE0006B0EA0 /* JLController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BE8201D9DFBE0006B0EA0 /* JLController.m */; };
+		E27BE8281D9DFDF5006B0EA0 /* JLAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BE8251D9DFDF5006B0EA0 /* JLAVPlayerViewController.m */; };
+		E27BE8291D9DFDF5006B0EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BE8271D9DFDF5006B0EA0 /* ViewController.m */; };
+		E27BE82C1D9DFE16006B0EA0 /* JLMediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BE82B1D9DFE16006B0EA0 /* JLMediaTableViewCell.m */; };
+		E27BE82E1D9E036D006B0EA0 /* directory.png in Resources */ = {isa = PBXBuildFile; fileRef = E27BE82D1D9E036D006B0EA0 /* directory.png */; };
+		E27BE8311D9E03BD006B0EA0 /* JLDirectoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BE8301D9E03BD006B0EA0 /* JLDirectoryTableViewCell.m */; };
+		E27BE8361D9E5891006B0EA0 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = E27BE8351D9E5891006B0EA0 /* music.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +41,6 @@
 		E24687D91D9D0DEF007B56EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E24687DB1D9D0DEF007B56EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E24687DC1D9D0DEF007B56EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E24687DE1D9D0DEF007B56EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E24687DF1D9D0DEF007B56EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E24687E21D9D0DEF007B56EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24687E41D9D0DEF007B56EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24687E71D9D0DEF007B56EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,9 +57,20 @@
 		E24687F91D9D0ECC007B56EB /* Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop@2x.png"; sourceTree = "<group>"; };
 		E24687FB1D9D0ECC007B56EB /* JLAVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAVPlayerView.h; sourceTree = "<group>"; };
 		E24687FC1D9D0ECC007B56EB /* JLAVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAVPlayerView.m; sourceTree = "<group>"; };
-		E24688081D9D0EE8007B56EB /* JLAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAVPlayerViewController.h; sourceTree = "<group>"; };
-		E24688091D9D0EE8007B56EB /* JLAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAVPlayerViewController.m; sourceTree = "<group>"; };
 		E246880B1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icmpv_thumb_light@2x.png"; sourceTree = "<group>"; };
+		E246880D1D9D19BD007B56EB /* header.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header.pch; sourceTree = "<group>"; };
+		E27BE81F1D9DFBE0006B0EA0 /* JLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLController.h; sourceTree = "<group>"; };
+		E27BE8201D9DFBE0006B0EA0 /* JLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLController.m; sourceTree = "<group>"; };
+		E27BE8241D9DFDF5006B0EA0 /* JLAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAVPlayerViewController.h; sourceTree = "<group>"; };
+		E27BE8251D9DFDF5006B0EA0 /* JLAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAVPlayerViewController.m; sourceTree = "<group>"; };
+		E27BE8261D9DFDF5006B0EA0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E27BE8271D9DFDF5006B0EA0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E27BE82A1D9DFE16006B0EA0 /* JLMediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMediaTableViewCell.h; sourceTree = "<group>"; };
+		E27BE82B1D9DFE16006B0EA0 /* JLMediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMediaTableViewCell.m; sourceTree = "<group>"; };
+		E27BE82D1D9E036D006B0EA0 /* directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directory.png; sourceTree = "<group>"; };
+		E27BE82F1D9E03BD006B0EA0 /* JLDirectoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDirectoryTableViewCell.h; sourceTree = "<group>"; };
+		E27BE8301D9E03BD006B0EA0 /* JLDirectoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDirectoryTableViewCell.m; sourceTree = "<group>"; };
+		E27BE8351D9E5891006B0EA0 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		E7C94CA03F412ACC32C92195 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,14 +115,13 @@
 		E24687D71D9D0DEF007B56EB /* lingerMedia */ = {
 			isa = PBXGroup;
 			children = (
+				E27BE8221D9DFDF5006B0EA0 /* View */,
+				E27BE8231D9DFDF5006B0EA0 /* Controller */,
+				E27BE81E1D9DFBCC006B0EA0 /* Model */,
 				E24687EF1D9D0ECC007B56EB /* images */,
 				E24687FA1D9D0ECC007B56EB /* JLAVPlayer */,
 				E24687DB1D9D0DEF007B56EB /* AppDelegate.h */,
 				E24687DC1D9D0DEF007B56EB /* AppDelegate.m */,
-				E24687DE1D9D0DEF007B56EB /* ViewController.h */,
-				E24687DF1D9D0DEF007B56EB /* ViewController.m */,
-				E24688081D9D0EE8007B56EB /* JLAVPlayerViewController.h */,
-				E24688091D9D0EE8007B56EB /* JLAVPlayerViewController.m */,
 				E24687E11D9D0DEF007B56EB /* Main.storyboard */,
 				E24687E41D9D0DEF007B56EB /* Assets.xcassets */,
 				E24687E61D9D0DEF007B56EB /* LaunchScreen.storyboard */,
@@ -122,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				E24687D91D9D0DEF007B56EB /* main.m */,
+				E246880D1D9D19BD007B56EB /* header.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,6 +143,8 @@
 		E24687EF1D9D0ECC007B56EB /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E27BE8351D9E5891006B0EA0 /* music.png */,
+				E27BE82D1D9E036D006B0EA0 /* directory.png */,
 				E246880B1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png */,
 				E24687F01D9D0ECC007B56EB /* dog.gif */,
 				E24687F11D9D0ECC007B56EB /* failed.gif */,
@@ -151,6 +167,37 @@
 				E24687FC1D9D0ECC007B56EB /* JLAVPlayerView.m */,
 			);
 			path = JLAVPlayer;
+			sourceTree = "<group>";
+		};
+		E27BE81E1D9DFBCC006B0EA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E27BE81F1D9DFBE0006B0EA0 /* JLController.h */,
+				E27BE8201D9DFBE0006B0EA0 /* JLController.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E27BE8221D9DFDF5006B0EA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E27BE82A1D9DFE16006B0EA0 /* JLMediaTableViewCell.h */,
+				E27BE82B1D9DFE16006B0EA0 /* JLMediaTableViewCell.m */,
+				E27BE82F1D9E03BD006B0EA0 /* JLDirectoryTableViewCell.h */,
+				E27BE8301D9E03BD006B0EA0 /* JLDirectoryTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E27BE8231D9DFDF5006B0EA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E27BE8241D9DFDF5006B0EA0 /* JLAVPlayerViewController.h */,
+				E27BE8251D9DFDF5006B0EA0 /* JLAVPlayerViewController.m */,
+				E27BE8261D9DFDF5006B0EA0 /* ViewController.h */,
+				E27BE8271D9DFDF5006B0EA0 /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F711DD96F3161BE8ECC37C59 /* Pods */ = {
@@ -224,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27BE82E1D9E036D006B0EA0 /* directory.png in Resources */,
 				E246880C1D9D0FFF007B56EB /* icmpv_thumb_light@2x.png in Resources */,
 				E24688001D9D0ECC007B56EB /* player_fullScreen_iphone.png in Resources */,
 				E24687E81D9D0DEF007B56EB /* LaunchScreen.storyboard in Resources */,
@@ -236,6 +284,7 @@
 				E24688061D9D0ECC007B56EB /* Stop@2x.png in Resources */,
 				E24687FE1D9D0ECC007B56EB /* failed.gif in Resources */,
 				E24688011D9D0ECC007B56EB /* player_fullScreen_iphone@2x.png in Resources */,
+				E27BE8361D9E5891006B0EA0 /* music.png in Resources */,
 				E24687FF1D9D0ECC007B56EB /* Play@2x.png in Resources */,
 				E24687E31D9D0DEF007B56EB /* Main.storyboard in Resources */,
 			);
@@ -296,11 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27BE8291D9DFDF5006B0EA0 /* ViewController.m in Sources */,
 				E24688071D9D0ECC007B56EB /* JLAVPlayerView.m in Sources */,
-				E24687E01D9D0DEF007B56EB /* ViewController.m in Sources */,
+				E27BE82C1D9DFE16006B0EA0 /* JLMediaTableViewCell.m in Sources */,
+				E27BE8311D9E03BD006B0EA0 /* JLDirectoryTableViewCell.m in Sources */,
 				E24687DD1D9D0DEF007B56EB /* AppDelegate.m in Sources */,
 				E24687DA1D9D0DEF007B56EB /* main.m in Sources */,
-				E246880A1D9D0EE8007B56EB /* JLAVPlayerViewController.m in Sources */,
+				E27BE8211D9DFBE0006B0EA0 /* JLController.m in Sources */,
+				E27BE8281D9DFDF5006B0EA0 /* JLAVPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L2AYBSUJUV;
+				GCC_PREFIX_HEADER = lingerMedia/header.pch;
 				INFOPLIST_FILE = lingerMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eall-linger.lingerMedia";
@@ -433,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L2AYBSUJUV;
+				GCC_PREFIX_HEADER = lingerMedia/header.pch;
 				INFOPLIST_FILE = lingerMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eall-linger.lingerMedia";

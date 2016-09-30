@@ -428,7 +428,9 @@
 }
 
 #pragma mark 播放URL
-- (void)updatePlayerWithURL:(NSString *)urlStr {
+- (void)updatePlayerWithURL:(NSURL *)url  withTite:(NSString *)title{
+    
+    self.titleLabel.text = title;
     
     [self removeObserveAndNotification];
     
@@ -439,7 +441,7 @@
     [self.playerLayer removeFromSuperlayer];
     self.playerLayer = nil;
     
-    NSURL *url = [NSURL URLWithString:urlStr];
+
     AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:url];
     self.player = [[AVPlayer alloc]initWithPlayerItem:playerItem];
     self.playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];

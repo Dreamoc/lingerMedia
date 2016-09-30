@@ -14,5 +14,5 @@
 - (instancetype)initWithFrame:(CGRect)frame withVC:(UIViewController *)vc offY:(CGFloat)offY;
 
 - (void)releaseView;
-- (void)updatePlayerWithURL:(NSString *)urlStr;
+- (void)updatePlayerWithURL:(NSURL *)url withTite:(NSString *)title;
 @end

@@ -1,0 +1,16 @@
+//
+//  header.pch
+//  lingerMedia
+//
+//  Created by eall_linger on 16/9/29.
+//  Copyright © 2016年 eall_linger. All rights reserved.
+//
+
+#ifndef header_pch
+#define header_pch
+
+#import "Masonry.h"
+
+#define MainColor  [UIColor colorWithRed:0 green:0 blue:0 alpha:1]
+
+#endif /* header_pch */

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JLAVPlayerViewController.h
 //  lingerMedia
 //
 //  Created by eall_linger on 16/9/29.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JLAVPlayerViewController : UIViewController
+@property (nonatomic,strong)NSURL *vedioUrl;
 
 @end
-

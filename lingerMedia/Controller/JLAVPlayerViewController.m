@@ -24,32 +24,16 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
     view = [[JLAVPlayerView alloc]initWithFrame:CGRectZero withVC:self offY:64];
     [self.view addSubview:view];
-    [view updatePlayerWithURL:URLStr1];
+    [view updatePlayerWithURL:self.vedioUrl withTite:self.title];
     
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 400, 100, 100)];
-    [btn addTarget:self action:@selector(on:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-    btn.backgroundColor = [UIColor orangeColor];
+ 
 
     
     // Do any additional setup after loading the view.
 }
-- (void)on:(UIButton *)btn
-{
-    
-    if (btn.selected == YES) {
-        btn.selected = NO;
-        [view updatePlayerWithURL:URLStr1];
-        
-    }else{
-        btn.selected = YES;
-        [view updatePlayerWithURL:URLStr2];
-        
-    }
-}
+
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
